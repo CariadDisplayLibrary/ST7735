@@ -1,0 +1,19 @@
+Source: libdisplaycore-driver-st7735
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-st7735
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core, libdspi-chipkit
+Provides: ST7735.h
+Description: ST7735 driver for DisplayCore
+ The ST7735 is used by the Adafruit 1.8" TFT shields.
+
+
+
