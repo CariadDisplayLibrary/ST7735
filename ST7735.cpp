@@ -328,7 +328,6 @@ void ST7735::fillRectangle(int x, int y, int w, int h, color_t color) {
 	if (_variant == BlackTab)   
 		color = swapcolor(color);
 	setAddrWindow(x, y, x+w-1, y+h-1);
-	uint8_t hi = color >> 8, lo = color;
 
 	for(y=h; y>0; y--) {
 		for(x=w; x>0; x--) {
