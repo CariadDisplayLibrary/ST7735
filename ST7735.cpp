@@ -415,6 +415,6 @@ void ST7735::setRotation(int m) {
 	}
 }
 
-void ST7735::invertDisplay(boolean i) {
+void ST7735::invertDisplay(bool i) {
 	command(i ? ST7735_INVON : ST7735_INVOFF);
 }
