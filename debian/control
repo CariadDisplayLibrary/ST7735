@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: ST7735.h
-Description: ST7735 driver for DisplayCore
+Description: ST7735
  The ST7735 is used by the Adafruit 1.8" TFT shields.
 
 
