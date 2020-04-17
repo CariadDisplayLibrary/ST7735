@@ -1,3 +1,4 @@
-ST7735.cpp libraries/DisplayCore/ST7735
-ST7735.h libraries/DisplayCore/ST7735
-examples/ libraries/DisplayCore/ST7735
+examples libraries/DisplayCore/ST7735
+library.json libraries/DisplayCore/ST7735
+library.properties libraries/DisplayCore/ST7735
+src libraries/DisplayCore/ST7735
