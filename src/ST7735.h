@@ -1,10 +1,10 @@
 #ifndef _ST7735_H
 #define _ST7735_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
-class ST7735 : public DisplayCore {
+class ST7735 : public Cariad {
     private:
         static const uint8_t ST7735_NOP     = 0x00;
         static const uint8_t ST7735_SWRESET = 0x01;

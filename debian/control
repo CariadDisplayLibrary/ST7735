@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-st7735
+Source: libcariad-driver-st7735
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-st7735
+Package: libcariad-driver-st7735
+Replaces: libdisplaycore-driver-st7735
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: TFT
-Depends: libdisplaycore-core, libdspi-chipkit
+Depends: libcariad-core, libdspi-chipkit
 Provides: ST7735.h
 Description: ST7735
  The ST7735 is used by the Adafruit 1.8" TFT shields.
